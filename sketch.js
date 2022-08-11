@@ -28,7 +28,7 @@ function preload() {
 	imgs.push(loadImage("images/09.jpg"));
 	imgs.push(loadImage("images/10.jpg"));
 
-	music = loadSound("sound/FAZEND_0109.wav");
+	music = loadSound("sound/FAZEND_0109.mp3");
 }
 
 function setup() {
