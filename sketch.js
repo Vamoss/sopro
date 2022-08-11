@@ -18,7 +18,7 @@ var debug;
 
 function preload() {
 	imgs.push(loadImage("images/01.jpg"));
-	/*imgs.push(loadImage("images/02.jpg"));
+	imgs.push(loadImage("images/02.jpg"));
 	imgs.push(loadImage("images/03.jpg"));
 	imgs.push(loadImage("images/04.jpg"));
 	imgs.push(loadImage("images/05.jpg"));
@@ -26,12 +26,16 @@ function preload() {
 	imgs.push(loadImage("images/07.jpg"));
 	imgs.push(loadImage("images/08.jpg"));
 	imgs.push(loadImage("images/09.jpg"));
-	imgs.push(loadImage("images/10.jpg"));*/
+	imgs.push(loadImage("images/10.jpg"));
 
 	music = loadSound("sound/FAZEND_0109.mp3");
 }
 
 function touchStarted() {
+	getAudioContext().resume();
+}
+
+function mousePressed() {
 	getAudioContext().resume();
 }
 
