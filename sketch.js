@@ -284,7 +284,7 @@ class ShaderProgram {
 			pos.z *= (1.0005-uZScale);
 			
 			gl_Position = uProjectionMatrix * uModelViewMatrix * vec4(pos, 1.0);
-			gl_PointSize = uSize;
+			gl_PointSize = uSize*3.0;
 			color = vec4(aColor, 1.0);
 			color.rgb *= uSize;
 		}
