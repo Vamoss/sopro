@@ -8,7 +8,6 @@ http://vamoss.com.br
 http://twitter.com/vamoss
 http://github.com/vamoss
 ******************/
-// noprotect
 
 var imgs = [];
 var programs = [];
@@ -50,7 +49,6 @@ function setup() {
 	// connect soundFile to reverb, process w/
 	// 20 second reverbTime, decayRate of 0.001%
 	reverb.process(music, 20, 0.001);
-	reverb.amp(4); // turn it up!
 
 	var graph = generatePatternColors();
 	graphProgram = new ShaderProgram(graph, drawingContext, renderer);
@@ -108,6 +106,7 @@ function draw() {
 	
 	maxZScale = (maxZScale-0.5)*2;
 	reverb.drywet(1-maxZScale);// 1 = all reverb, 0 = no reverb
+	reverb.amp(maxZScale*4+2);
 
 	if(updater){
 		updater.next();
