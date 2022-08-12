@@ -12,7 +12,7 @@ A vídeo projeção “Sopro” apresenta transformações em vídeo, com base n
 ### Guto Nóbrega
 ![Guto Nóbrega](GutoNobrega.png "Guto Nóbrega").
 
-[Atualizar texto]
+Guto Nóbrega é Doutor em artes interativas pelo programa The Planetetary, Universidade de Plymouth - Reino Unido (2009). Fez pós-doutoramento na linha Arte e Tecnologia no PPGAV/ UnB (2019).  É professor associado na Escola de Belas Artes da Universidade Federal do Rio de Janeiro e membro do Programa de Pós-Graduação em Artes Visuais da UFRJ e UnB. É o fundador e atua como um dos coordenadores do NANO - Núcleo de Arte e Novos Organismos, um laboratório de investigação e criação artística. Desde 2019 é Bolsista de Produtividade em Pesquisa do CNPq - Nível 2. As suas obras de arte têm sido amplamente apresentadas em exposições e conferências no Brasil e no exterior.
 
 
 ### Vamoss
