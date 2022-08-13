@@ -27,7 +27,7 @@ function preload() {
 	imgs.push(loadImage("images/09.jpg"));
 	imgs.push(loadImage("images/10.jpg"));
 
-	music = loadSound("sound/FAZEND_0109.mp3");
+	music = loadSound("sound/audio.mpeg");
 }
 
 function touchStarted() {
@@ -106,7 +106,7 @@ function draw() {
 	
 	maxZScale = (maxZScale-0.5)*2;
 	reverb.drywet(1-maxZScale);// 1 = all reverb, 0 = no reverb
-	reverb.amp(maxZScale*4+2);
+	reverb.amp(maxZScale);
 
 	if(updater){
 		updater.next();
